@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kelly Cheng Jie Wang | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to content</a>
+
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand__dot"></span>
+      <span class="brand__name">Kelly Wang</span>
+    </div>
+    <nav aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#process">Process</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="button ghost" href="#contact">Let's talk</a>
+  </header>
+
+  <header class="hero">
+    <div class="hero__content">
+      <p class="eyebrow">Frontend Engineer · Student · Mentor</p>
+      <h1>Hi, I'm Kelly Cheng Jie Wang<span class="accent">.</span></h1>
+      <p class="lede">Frontend engineer at Setso and Computer Science student at Vrije Universiteit Amsterdam &amp; University of Amsterdam. I craft soft, sleek web experiences that pair clear communication with adaptable engineering.</p>
+      <div class="hero__actions">
+        <a class="button primary" href="#projects">View Projects</a>
+        <a class="button ghost" href="#experience">See Experience</a>
+      </div>
+      <div class="hero__meta">
+        <div>
+          <p class="label">Focus</p>
+          <p>Frontend engineering, UI systems, accessible design</p>
+        </div>
+        <div>
+          <p class="label">Currently</p>
+          <p>Building adaptable UI components at Setso with a small, agile team</p>
+        </div>
+        <div>
+          <p class="label">Location</p>
+          <p>Remote · Open to select on-site collaborations</p>
+        </div>
+      </div>
+    </div>
+    <div class="hero__badge" aria-hidden="true">
+      <div class="orb"></div>
+      <p class="badge__label">Soft Aesthetic</p>
+      <p class="badge__title">White &amp; Blush</p>
+      <p class="badge__note">Crafted for calm, optimistic storytelling.</p>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section" id="about">
+      <div class="section__header">
+        <p class="eyebrow">About</p>
+        <h2>Designing with intention</h2>
+      </div>
+      <div class="grid two-cols">
+        <div class="card card--text">
+          <p>
+            I'm a frontend engineer and computer science student who pairs soft visuals with crisp execution. At Setso, I build UI components within a small, agile team and lean on clear communication to keep collaboration smooth.
+          </p>
+          <p>
+            Previously, I mentored fellow students at Vrije Universiteit Amsterdam—supporting software design coursework and sharpening explanations for diverse learners. I love creating welcoming digital spaces that feel calm, inclusive, and quietly confident.
+          </p>
+        </div>
+        <div class="card card--list">
+          <h3>Highlights</h3>
+          <ul>
+            <li>Frontend engineer at Setso, crafting adaptable UI components.</li>
+            <li>Academic mentor and student assistant for Software Design course.</li>
+            <li>Experienced in clear communication across remote, agile teams.</li>
+            <li>Problem solver with strong foundations in computer science.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="section__header">
+        <p class="eyebrow">Resume</p>
+        <h2>Experience &amp; education</h2>
+      </div>
+      <div class="grid two-cols">
+        <div class="card resume-card">
+          <div class="resume-card__header">
+            <div>
+              <p class="label">Current role</p>
+              <h3>Frontend Engineer · Setso</h3>
+            </div>
+            <span class="pill">Sep 2024 – Present · Amsterdam</span>
+          </div>
+          <p>Developing UI components in a small, agile team with an emphasis on clear communication and adaptability.</p>
+        </div>
+        <div class="card resume-card">
+          <div class="resume-card__header">
+            <div>
+              <p class="label">Student Assistant</p>
+              <h3>Software Design · VU Amsterdam</h3>
+            </div>
+            <span class="pill">Feb 2024 – Apr 2024 · Amsterdam</span>
+          </div>
+          <p>Mentored and supported students on software design concepts, provided personalized explanations, and co-created exercise and exam questions while recording walkthroughs with OBS.</p>
+        </div>
+        <div class="card resume-card">
+          <div class="resume-card__header">
+            <div>
+              <p class="label">Academic Mentor</p>
+              <h3>Software Design · VU Amsterdam</h3>
+            </div>
+            <span class="pill">2023 – 2024 · Amsterdam</span>
+          </div>
+          <p>Guided peers through software design assignments, ensuring concepts landed clearly for diverse learners.</p>
+        </div>
+        <div class="card resume-card">
+          <div class="resume-card__header">
+            <div>
+              <p class="label">Education</p>
+              <h3>Vrije Universiteit Amsterdam &amp; UvA</h3>
+            </div>
+            <span class="pill">2021 – 2026</span>
+          </div>
+          <ul class="resume-card__list">
+            <li>Master's in Computer Science (Networked Systems) · Sep 2024 – Jul 2026</li>
+            <li>Bachelor's in Computer Science · Sep 2021 – Jul 2024</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section__header">
+        <p class="eyebrow">Selected work</p>
+        <h2>Soft, sleek, and purposeful</h2>
+      </div>
+      <div class="grid three-cols">
+        <article class="card project">
+          <div class="project__tag">Design System</div>
+          <h3>Serene UI Kit</h3>
+          <p>A pastel-forward component library built for SaaS dashboards. Focused on clarity, harmony, and delightful states.</p>
+          <div class="meta-row">
+            <span>Role: Lead designer &amp; front-end dev</span>
+            <span>Year: 2024</span>
+          </div>
+          <a class="inline-link" href="#">View the case study</a>
+        </article>
+        <article class="card project">
+          <div class="project__tag">Web Experience</div>
+          <h3>Calm Commerce</h3>
+          <p>A boutique e-commerce story that pairs editorial layouts with tactile micro-interactions for a calm checkout flow.</p>
+          <div class="meta-row">
+            <span>Role: Product designer</span>
+            <span>Year: 2023</span>
+          </div>
+          <a class="inline-link" href="#">See the prototype</a>
+        </article>
+        <article class="card project">
+          <div class="project__tag">Concept</div>
+          <h3>Blush Atlas</h3>
+          <p>A playful map of favorite cafés and studios, rendered with soft gradients and subtle glassmorphism accents.</p>
+          <div class="meta-row">
+            <span>Role: Creative coder</span>
+            <span>Year: 2023</span>
+          </div>
+          <a class="inline-link" href="#">Explore the visuals</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="process">
+      <div class="section__header">
+        <p class="eyebrow">Approach</p>
+        <h2>A calm, collaborative process</h2>
+      </div>
+      <div class="process">
+        <div class="step">
+          <div class="step__icon">01</div>
+          <div>
+            <h3>Discover</h3>
+            <p>Define the story, understand the audience, and map success metrics with intentionality and clarity.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__icon">02</div>
+          <div>
+            <h3>Design</h3>
+            <p>Craft tactile interfaces with soft gradients, accessible typography, and motion that feels gentle but alive.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__icon">03</div>
+          <div>
+            <h3>Develop</h3>
+            <p>Bring the experience to the browser with semantic HTML, scalable CSS, and performant, inclusive interactions.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section__header">
+        <p class="eyebrow">Skills</p>
+        <h2>Tools &amp; practices</h2>
+      </div>
+      <div class="grid three-cols">
+        <div class="card card--list">
+          <h3>Design</h3>
+          <ul>
+            <li>Product strategy &amp; user flows</li>
+            <li>UI/UX for responsive web</li>
+            <li>Design systems &amp; documentation</li>
+            <li>Prototyping &amp; motion</li>
+          </ul>
+        </div>
+        <div class="card card--list">
+          <h3>Development</h3>
+          <ul>
+            <li>Semantic HTML &amp; modern CSS</li>
+            <li>Accessibility-first approach</li>
+            <li>React, animations, and state</li>
+            <li>Performance-minded builds</li>
+          </ul>
+        </div>
+        <div class="card card--list">
+          <h3>Collaboration</h3>
+          <ul>
+            <li>Storytelling &amp; presenting work</li>
+            <li>Documentation &amp; workshops</li>
+            <li>Mentorship &amp; pairing</li>
+            <li>Research synthesis</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="section__header">
+        <p class="eyebrow">Contact</p>
+        <h2>Let's build something kind</h2>
+      </div>
+      <div class="contact card">
+        <div>
+          <p class="lede">Ready to collaborate or just want to say hello? I'm always open to thoughtful conversations about frontend engineering, design, and problem solving.</p>
+          <div class="contact__channels">
+            <div>
+              <p class="label">Email</p>
+              <a href="mailto:kelly.vx8@uva.nl">kelly.vx8@uva.nl</a>
+            </div>
+            <div>
+              <p class="label">Phone</p>
+              <a href="tel:+352691168998">+352 691 168 998</a>
+            </div>
+            <div>
+              <p class="label">LinkedIn</p>
+              <a href="https://www.linkedin.com/in/kelly-cheng-jie-wang-999a452b" target="_blank" rel="noreferrer">kelly-cheng-jie-wang</a>
+            </div>
+          </div>
+        </div>
+        <a class="button primary" href="mailto:kelly.vx8@uva.nl">Start a project</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Handcrafted with care · Always evolving</p>
+    <p class="small">Soft aesthetic. Clear thinking. Playful heart.</p>
+  </footer>
+</body>
+</html>
